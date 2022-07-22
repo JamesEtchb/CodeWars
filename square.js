@@ -4,7 +4,7 @@ function findNextSquare(sq) {
     }else{
         let sq2 = sq**0.5;
         let sq3 = sq2+1
-        let sq4 = sq3**sq3
+        let sq4 = sq3*sq3
         return sq4
     }
   }
