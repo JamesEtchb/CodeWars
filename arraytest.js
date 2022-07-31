@@ -1,3 +1,5 @@
+import { get } from "http"
+
 arr = [[1,2], [3,4], [5,6]]
 
 function findFirst (arr){
@@ -9,3 +11,4 @@ function findLast (arr){
     let cell = arr[row].length -1
     return arr[row][cell]
 }
+

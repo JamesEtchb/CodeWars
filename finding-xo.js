@@ -4,9 +4,9 @@ function XO(str) {
     let xTotal = 0
     let oTotal = 0
     for (let i = 0; i < str.length; i++){
-      if(str[i] == 'x'.toLowerCase){
+      if(str[i].toLowerCase == 'x'.toLowerCase){
         xTotal += 1
-      } else if (str[i] == 'o'.toLowerCase){
+      } else if (str[i].toLowerCase == 'o'.toLowerCase){
         oTotal += 1
       } else {
         continue
